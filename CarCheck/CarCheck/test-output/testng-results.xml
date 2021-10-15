@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="2" ignored="0" total="4" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="12389" started-at="2021-10-15T12:20:36 BST" finished-at="2021-10-15T12:20:48 BST">
+  <suite name="CarCheckSuite" duration-ms="15027" started-at="2021-10-15T15:07:59 BST" finished-at="2021-10-15T15:08:14 BST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="12389" started-at="2021-10-15T12:20:36 BST" finished-at="2021-10-15T12:20:48 BST">
+    <test name="CarDetailsValidation" duration-ms="15027" started-at="2021-10-15T15:07:59 BST" finished-at="2021-10-15T15:08:14 BST">
       <class name="carcheck.testcases.vehicleIdentityPageTest">
-        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="2108" started-at="2021-10-15T12:20:36 BST" finished-at="2021-10-15T12:20:38 BST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="3081" started-at="2021-10-15T15:07:59 BST" finished-at="2021-10-15T15:08:02 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="829" started-at="2021-10-15T12:20:38 BST" data-provider="passRegNumbers" finished-at="2021-10-15T12:20:39 BST">
+        <test-method status="PASS" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="927" started-at="2021-10-15T15:08:02 BST" data-provider="passRegNumbers" finished-at="2021-10-15T15:08:03 BST">
           <params>
             <param index="0">
               <value>
@@ -22,15 +22,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicleTestOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="640" started-at="2021-10-15T12:20:39 BST" finished-at="2021-10-15T12:20:39 BST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="733" started-at="2021-10-15T15:08:03 BST" finished-at="2021-10-15T15:08:04 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1497" started-at="2021-10-15T12:20:39 BST" finished-at="2021-10-15T12:20:41 BST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1747" started-at="2021-10-15T15:08:04 BST" finished-at="2021-10-15T15:08:05 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="820" started-at="2021-10-15T12:20:41 BST" data-provider="passRegNumbers" finished-at="2021-10-15T12:20:42 BST">
+        <test-method status="FAIL" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="994" started-at="2021-10-15T15:08:05 BST" data-provider="passRegNumbers" finished-at="2021-10-15T15:08:06 BST">
           <params>
             <param index="0">
               <value>
@@ -84,15 +84,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicleTestOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="664" started-at="2021-10-15T12:20:42 BST" finished-at="2021-10-15T12:20:42 BST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="699" started-at="2021-10-15T15:08:06 BST" finished-at="2021-10-15T15:08:07 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1470" started-at="2021-10-15T12:20:42 BST" finished-at="2021-10-15T12:20:44 BST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1744" started-at="2021-10-15T15:08:07 BST" finished-at="2021-10-15T15:08:09 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="PASS" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="780" started-at="2021-10-15T12:20:44 BST" data-provider="passRegNumbers" finished-at="2021-10-15T12:20:45 BST">
+        <test-method status="PASS" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="879" started-at="2021-10-15T15:08:09 BST" data-provider="passRegNumbers" finished-at="2021-10-15T15:08:10 BST">
           <params>
             <param index="0">
               <value>
@@ -103,15 +103,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicleTestOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="619" started-at="2021-10-15T12:20:45 BST" finished-at="2021-10-15T12:20:45 BST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="694" started-at="2021-10-15T15:08:10 BST" finished-at="2021-10-15T15:08:10 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1494" started-at="2021-10-15T12:20:45 BST" finished-at="2021-10-15T12:20:47 BST">
+        <test-method status="PASS" signature="setup()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="setup" is-config="true" duration-ms="1797" started-at="2021-10-15T15:08:10 BST" finished-at="2021-10-15T15:08:12 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method status="FAIL" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="784" started-at="2021-10-15T12:20:47 BST" data-provider="passRegNumbers" finished-at="2021-10-15T12:20:47 BST">
+        <test-method status="FAIL" signature="vehicleTestOne(java.lang.String)[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="vehicleTestOne" duration-ms="921" started-at="2021-10-15T15:08:12 BST" data-provider="passRegNumbers" finished-at="2021-10-15T15:08:13 BST">
           <params>
             <param index="0">
               <value>
@@ -165,11 +165,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- vehicleTestOne -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="630" started-at="2021-10-15T12:20:47 BST" finished-at="2021-10-15T12:20:48 BST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:carcheck.testcases.vehicleIdentityPageTest@5d76b067]" name="teardown" is-config="true" duration-ms="723" started-at="2021-10-15T15:08:13 BST" finished-at="2021-10-15T15:08:14 BST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- carcheck.testcases.vehicleIdentityPageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- CarDetailsValidation -->
+  </suite> <!-- CarCheckSuite -->
 </testng-results>
